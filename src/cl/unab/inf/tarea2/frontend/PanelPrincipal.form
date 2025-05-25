@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cl.unab.inf.tarea2.frontend.PanelPrincipal">
+  <grid id="27dc6" binding="contenedor" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="fbc39" binding="botonera" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6049" class="javax.swing.JButton" binding="cargarArchivo">
+            <constraints/>
+            <properties>
+              <text value="Cargar Archivo"/>
+            </properties>
+          </component>
+          <component id="31c00" class="javax.swing.JLabel" binding="textoConfirmador">
+            <constraints/>
+            <properties>
+              <text value=". . ."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d69d8" class="javax.swing.JLabel" binding="titulo">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font swing-font="TitledBorder.font"/>
+          <horizontalAlignment value="0"/>
+          <text value="Cargador de Prueba"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
